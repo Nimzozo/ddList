@@ -1,6 +1,7 @@
 # ddList
 
 Simple animated drop down list for JavaScript.
+I created this project for my AbChess repository.
 
 ## Usage
 
