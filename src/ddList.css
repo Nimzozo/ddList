@@ -1,0 +1,64 @@
+/** drop-down-list.css
+ * 2017-12-07
+ * Copyright (c) 2017 Nimzozo
+ */
+
+ .drop-down-header, .drop-down-header_open {
+    cursor: pointer;
+    margin: 8px;
+    color: black;
+    -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+.drop-down-header::before {
+    content: "♖";
+    color: black;
+    position: relative;
+    left: -4px;
+}
+
+.drop-down-header_open::before {
+    content: "♜";
+    color: black;
+    position: relative;
+    left: -4px;
+}
+
+.drop-down-list {
+    display: none;
+}
+
+.drop-down-list_open {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 4px;
+    font-size: .9em;
+    display: block;
+}
+
+.drop-down-list__item {
+    height: 20px;
+    margin: 4px;
+    display: block;
+}
+
+ .drop-down-list__link {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-list__link_selected {
+    color: dodgerblue;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.drop-down-header:hover, .drop-down-list__link:hover {
+    color: dodgerblue;
+}
