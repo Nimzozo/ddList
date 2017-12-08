@@ -1,5 +1,5 @@
-// drop-down-list.js
-// 2017-12-07
+// ddlist.js
+// 2017-12-08
 // Copyright (c) 2017 Nimzozo
 
 window.addEventListener("load", function () {
